@@ -360,7 +360,6 @@ footer{
     -ms-flex-align:center;
     align-items:center;
     background-color: #000;
-    background-size: cover;
     width:500px;
 }
 .panel-content{
