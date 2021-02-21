@@ -49,6 +49,8 @@
 @media only screen and (max-width: 720px){
     h1{font-size: 200%;}
     
+    .main__nav{height: 60px;}
+    
     .title-2{display: none;}
     
     .title-3{display: block;}
