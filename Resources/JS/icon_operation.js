@@ -1,6 +1,11 @@
-document.querySelector('.open').addEventListener('click',function(){
-    document.querySelector('.blur-back').classList.remove('hidden');
-})
-document.querySelector('.close').addEventListener('click',function(){
-    document.querySelector('.blur-back').classList.add('hidden');
-})
+const button=document.querySelector('button');
+const close=document.querySelector('.close');
+const sideWindow=document.querySelector('.blur-back');
+
+button.addEventListener('click',function(){
+    sideWindow.classList.remove('hidden');
+});
+
+close.addEventListener('click',function(){
+    sideWindow.classList.add('hidden');
+});
