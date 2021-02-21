@@ -337,7 +337,7 @@ footer{
     -ms-flex-pack: end; 
     justify-content: flex-end;
     position: fixed; 
-    z-index: 1; 
+    z-index: 9999; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -348,7 +348,7 @@ footer{
     
 }
 .panel{
-    position: absolute;
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -356,29 +356,33 @@ footer{
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
     background-color: #000;
-    background-size: contain;
     width: 40%;
     height: 100vh;
+    margin: 0;
+    border-width: 0;
+    padding: 38px;
+    z-index: 1;
 }
-.panel-content{
-    font-size: 90%;
-    font-weight: bold;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 50px;
+.panel li{
+    display: inline-block;
 }
+.panel li a:link,
+.panel li a:visited
+{text-decoration: none;}
+.nav-1{color: #fff;
+font-weight: bold;
+font-size: 30px;}
+.nav-2{color: #919496;
+font-weight: bold;
+font-size: 20px;}
+.nav-1:hover,
+nav-1:active,
+.nav-2:hover,
+nav-2:active{color: #1ED760;
+}
+hr{width: 30px;
+margin: 15px 0;}
 .hidden{
     display: none;
 }
