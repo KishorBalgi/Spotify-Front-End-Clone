@@ -348,7 +348,7 @@ footer{
     
 }
 .panel{
-    position: fixed;
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
