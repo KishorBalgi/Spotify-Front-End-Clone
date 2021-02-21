@@ -360,7 +360,8 @@ footer{
     align-items:center;
     background-color: #000;
     width:500px;
-    height: 100vh;
+    background-size: cover;
+/*     height: 100vh; */
 }
 .panel-content{
     font-size: 90%;
