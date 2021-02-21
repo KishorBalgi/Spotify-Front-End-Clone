@@ -348,6 +348,7 @@ footer{
     
 }
 .panel{
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
