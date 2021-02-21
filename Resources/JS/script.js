@@ -6,4 +6,6 @@ $(document).ready(function(){
     
         $('.logo').addClass('animate__animated animate__pulse');
         $('.logo').css('animation-iteration-count','infinite');
+    
+        $('.panel').addClass('animate__animated animate__slideInRight')
 });
