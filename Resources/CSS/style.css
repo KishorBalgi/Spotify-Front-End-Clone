@@ -360,9 +360,8 @@ footer{
     -ms-flex-align:center;
     align-items:center;
     background-color: #000;
-    width:500px;
     background-size: contain;
-/*     height: 100vh; */
+    width:500px;
 }
 .panel-content{
     font-size: 90%;
