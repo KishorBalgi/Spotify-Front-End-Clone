@@ -17,9 +17,13 @@ html{
     font-size: 30px;
     font-weight: 400;
     color: #fff;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background: #fff;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 header{
     background-color: #2D46B9;
@@ -50,7 +54,7 @@ h2{
 .logo-link img{vertical-align: middle;}
 
 .content{
-    background-color: #222326;
+    background-color: #000;
     position: fixed;
     width: 100vw;
     z-index: 1;
@@ -66,8 +70,6 @@ h2{
     align-items: center;
     font-size: 53%;
     height: 75px;
-    width: 90%;
-    margin: 0 auto;
     
 }
 .main__nav-1{
@@ -142,10 +144,11 @@ h2{
     padding-top: 200px;
 }
 .hero-text-box p{
-    width: 470px;
-    font-size: 16px;
-    margin: 10px 0 15px 0;
-    padding: 0 0 0 30px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 15px 0;
 }
 .hero-text-box a:link,
 .hero-text-box a:visited{
@@ -169,7 +172,7 @@ h2{
     margin-top: 20px;
 }
 footer{
-    background-color: #222326;  
+    background-color: #000;  
 }
 .lfooter{
     display: -webkit-box;
@@ -293,6 +296,9 @@ footer{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    -ms-flex-pack: distribute;
+    -ms-flex-line-pack: distribute;
+    padding: 10px 0 50px 0;
 }
 .bottom-box{
     margin: 30px 0;
@@ -352,12 +358,13 @@ footer{
     -webkit-box-align:center;
     -ms-flex-align:center;
     align-items:center;
-    background-color: #222326;
-    width:30%;
+    background-color: #000;
+    width:500px;
     height: 100vh;
 }
 .panel-content{
-    font-size: 70%;
+    font-size: 90%;
+    font-weight: bold;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -378,4 +385,4 @@ button{
     text-decoration: none;
     cursor: pointer;
     color: #fff;
-    background-color: #222326;}
+    background-color: #000;}
