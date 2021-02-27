@@ -362,6 +362,7 @@ footer{
     margin: 0;
     border-width: 0;
     padding: 38px;
+    overflow-y: scroll:
     z-index: 1;
 }
 .panel li{
